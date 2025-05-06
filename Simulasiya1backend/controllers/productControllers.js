@@ -1,0 +1,22 @@
+import ProductModel from "../models/productModel.js"
+
+
+const getProduct = async (req,res) => {
+    const product = await ProductModel.find()
+    res.json(product)
+}
+
+const postProduct = async (req,res) => {
+    const {image, name,span} = req.body
+    const product = {image, name,span}
+    await ProductModel.create(product)
+    res.json(product)
+}
+
+const deleteProduct = async (req,res) => {
+    const {id} = req.params
+    await ProductModel.findByIdAndDelete(id)
+    res.json(`${id} -data silindi brattttt`)
+}
+ 
+export {getProduct,postProduct, deleteProduct}
