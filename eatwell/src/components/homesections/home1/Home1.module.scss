@@ -1,0 +1,48 @@
+.home1{
+    background-image: url(https://preview.colorlib.com/theme/eatwell/images/bg_3.jpg);
+    top: 0;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    .texth1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        .welcome{
+            font-size: 75px;
+            line-height: 1.34;
+            color: #fff;
+        }
+        .come{
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 300;
+            font-family: "Raleway", sans-serif;
+        }
+        .reser{
+            border-color: rgba(255, 255, 255, 0.8);
+            background: none;
+            border-radius: 0px;
+            border-width: 2px;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            align-content: center;
+            width: 130px;
+            height: 50px;
+            cursor: pointer;
+            
+            &:hover{
+                position: relative;
+                color: #000000;
+                transition: 0.3s;
+                background-color: white;
+                transform: scaleY(0.9);
+
+            }
+        }
+    }
+}

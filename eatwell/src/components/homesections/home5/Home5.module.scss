@@ -1,0 +1,38 @@
+.home5wrapper{
+
+    .gallery{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       padding-bottom: 5x;
+       padding-top: 60px;
+       .gal{
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.1;
+       }
+       .faway{
+        font-family: "Raleway", sans-serif;
+        background: #fff;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #b8b8b8;
+        padding-bottom: 50px;
+       }
+    }
+    .gridcard{
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        .imgss1{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 15px;
+            display: flex;
+            padding-top: 15px;
+        }
+    }
+}

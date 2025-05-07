@@ -7,8 +7,8 @@ const getProduct = async (req,res) => {
 }
 
 const postProduct = async (req,res) => {
-    const {image, name,span} = req.body
-    const product = {image, name,span}
+    const {image, beer,name} = req.body
+    const product = {image, beer,name}
     await ProductModel.create(product)
     res.json(product)
 }
@@ -16,7 +16,7 @@ const postProduct = async (req,res) => {
 const deleteProduct = async (req,res) => {
     const {id} = req.params
     await ProductModel.findByIdAndDelete(id)
-    res.json(`${id} -data silindi brattttt`)
+    res.json(`${id} -Data silindi brattttt`)
 }
  
 export {getProduct,postProduct, deleteProduct}

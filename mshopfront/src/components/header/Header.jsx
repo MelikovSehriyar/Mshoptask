@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from "./Header.module.scss"
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom' 
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -15,7 +15,7 @@ const Header = () => {
         <div className={styles.himg}>
           <img src="https://preview.colorlib.com/theme/shop/img/logo.png.webp" alt="Logo" />
         </div>
-        
+
         <div className={styles.burger} onClick={toggleMenu}>
           <span></span>
           <span></span>

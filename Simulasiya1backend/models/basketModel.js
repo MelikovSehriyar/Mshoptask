@@ -1,12 +1,12 @@
 import mongoose from "mongoose";
 
-const productSchema = mongoose.Schema({
+const basketSchema = mongoose.Schema({
     image:{type:String, required:true},
     beer:{type:String, required:true},
     name:{type:String, required:true},
     
 }, {timestamps:true})
 
-const ProductModel = mongoose.model('Products', productSchema)
+const BasketModel = mongoose.model('Products', basketSchema)
 
-export default ProductModel
+export default BasketModel

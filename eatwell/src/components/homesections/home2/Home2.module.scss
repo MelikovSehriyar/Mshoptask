@@ -1,0 +1,65 @@
+.home2wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .texth2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        
+        .our{
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: .5em;
+            color: #d4d4d4;
+            font-family: "Raleway", sans-serif;
+            font-weight: 300;
+        }
+        .welcome2{
+            font-size: 3.5rem;
+            font-weight: 300;
+            line-height: 1.1;
+        }
+        .far{
+            font-family: "Raleway", sans-serif;
+            background: #fff;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #b8b8b8;
+            width: 450px;
+        }
+        .learn{
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            border: 1px solid transparent;
+            padding: .5rem .75rem;
+            font-size: 1rem;
+            line-height: 1.25;
+            border-radius: .25rem;
+            transition: all .15s ease-in-out;
+            width: 180px;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+    .imgh2{
+        
+       .imgh23{
+        width: 580px;
+        height: 470px;
+        align-items: center;
+       }
+    }
+}

@@ -1,0 +1,35 @@
+.wrapperh{
+    position: sticky;
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: transparent;
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 0;
+        
+        .lefth{
+            margin-right: 370px;
+            cursor: pointer;
+            .eat{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: lighter;
+                font-size: 25px;
+            }
+        }
+        .righth{
+            display: flex;
+            gap: 50px;
+            cursor: pointer;
+            .h{
+                text-decoration: none;
+                color: grey;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    }
+}
