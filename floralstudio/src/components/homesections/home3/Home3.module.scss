@@ -1,0 +1,89 @@
+.textss3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.textss3 .devo {
+    color: grey;
+}
+
+.textss3 .pri {
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.map {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.map .cardsdata {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.map .cardsdata .imageflw {
+    width: 350px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .textss3 .pri {
+        font-size: 45px;
+    }
+
+    .map {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .map .cardsdata .imageflw {
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .textss3 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .textss3 .pri {
+        font-size: 40px;
+    }
+
+    .map {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .map .cardsdata .imageflw {
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .textss3 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .textss3 .pri {
+        font-size: 35px;
+    }
+
+    .map .cardsdata .imageflw {
+        width: 100%;
+    }
+}

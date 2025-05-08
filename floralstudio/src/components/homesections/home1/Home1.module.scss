@@ -1,0 +1,72 @@
+.home1wrapper {
+    background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home1wrapper .texth1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 500px;
+}
+
+.home1wrapper .texth1 .f {
+    font-style: italic;
+    color: #1b745e;
+}
+
+.home1wrapper .texth1 .excel {
+    font-size: 50px;
+    color: #1b745e;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .home1wrapper {
+        height: 800px;
+    }
+
+    .home1wrapper .texth1 .excel {
+        font-size: 40px;
+    }
+
+    .home1wrapper .texth1 {
+        padding-top: 400px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .home1wrapper {
+        height: 600px;
+    }
+
+    .home1wrapper .texth1 .excel {
+        font-size: 30px;
+    }
+
+    .home1wrapper .texth1 {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .home1wrapper {
+        height: 500px;
+    }
+
+    .home1wrapper .texth1 .excel {
+        font-size: 25px;
+    }
+
+    .home1wrapper .texth1 {
+        padding-top: 150px;
+    }
+}

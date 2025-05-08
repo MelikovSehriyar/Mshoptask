@@ -1,0 +1,115 @@
+.home5wrapper {
+    .texts5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .texts5 .con {
+        color: grey;
+        font-style: italic;
+    }
+
+    .texts5 .team {
+        font-size: 35px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imgs5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .imgs5 .img51 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 250px;
+        height: auto;
+    }
+
+    .imgs5 .img51 .kopf {
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+    .imgs5 .img51 .bio {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        font-style: italic;
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .home5wrapper .texts5 .team {
+        font-size: 30px;
+    }
+
+    .imgs5 {
+        gap: 15px;
+    }
+
+    .imgs5 .img51 {
+        width: 300px;
+    }
+
+    .imgs5 .img51 .kopf {
+        font-size: 22px;
+    }
+
+    .imgs5 .img51 .bio {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .home5wrapper .texts5 .team {
+        font-size: 25px;
+    }
+
+    .home5wrapper .imgs5 {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .imgs5 .img51 {
+        width: 80%; 
+    }
+
+    .imgs5 .img51 .kopf {
+        font-size: 20px;
+    }
+
+    .imgs5 .img51 .bio {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .home5wrapper .texts5 .team {
+        font-size: 20px;
+    }
+
+    .home5wrapper .imgs5 .img51 {
+        width: 90%; 
+    }
+
+    .imgs5 .img51 .kopf {
+        font-size: 18px;
+    }
+
+    .imgs5 .img51 .bio {
+        font-size: 12px;
+    }
+}
